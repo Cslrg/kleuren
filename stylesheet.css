@@ -1,7 +1,16 @@
 *{
     margin: 0;
-    padding: 0;
+
 }
+
+@media only screen and (max-width: 600px) {
+    .items {
+        border-style: solid;
+        display: block;
+    }
+}
+
+
 
 html{
     scroll-behavior: smooth;
@@ -14,6 +23,7 @@ body{
 
 nav {
     background: #EFFFFD;
+    position: page;
 }
 
 
@@ -21,15 +31,13 @@ div, section, span, ul, li{
     box-sizing: border-box;
 }
 
-nav{
-    position: left;
-}
-/*css reset*/
 
+p{
+    padding: 30px;
+}
 header{
     width: 100%;
     display: inline-block;
-    padding: 0;
     align-items: center;
     position: fixed;
     z-index: 999;
@@ -39,7 +47,7 @@ header{
 h1{
     font-size: 2em;
     margin: 20px;
-    padding: 0;
+    padding: 20px;
 }
 
 p{
@@ -47,7 +55,10 @@ p{
 }
 
 img {
-    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
 }
 #menu li{
     list-style: none;
@@ -71,6 +82,7 @@ section{
 }
 
 #Kleuren{
+
     background-color: #EFFFFD;
 }
 
